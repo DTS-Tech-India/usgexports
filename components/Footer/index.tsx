@@ -16,21 +16,20 @@ const Footer = () => {
                   <Image
                     src="images/logo/logo-2.svg"
                     alt="logo"
-                    className="w-full dark:hidden"
-                    width={140}
+                    className=" dark:hidden"
+                    width={240}
                     height={30}
                   />
                   <Image
-                    src="images/logo/logo.svg"
+                    src="images/logo/logo-2.svg"
                     alt="logo"
-                    className="hidden w-full dark:block"
-                    width={140}
+                    className="hidden dark:block"
+                    width={240}
                     height={30}
                   />
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                We are a leading name in the world of international trade, with a legacy of excellence spanning over 2+ years.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -206,9 +205,12 @@ const Footer = () => {
           </div>
         </div>
         <div className="bg-primary/10 py-8">
-          <div className="container">
+          <div className="container flex justify-between">
+          <p className="text-center text-base text-body-color dark:text-white">
+          © USG Exports 2023 | All Rights Reserved
+            </p>
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and <a href="https://nextjstemplates.com" rel="nofollow noopener">Next.js Templates</a>
+            Developed with ❤️️ by <a href="https://dtstechindia.com" className="hover:underline">DTS Tech India</a> | Powered by <a href="https://socialyard.tech" className="  hover:transition-all  hover:duration-300  hover:ease-in-out hover:underline">Social Yard</a>
             </p>
           </div>
         </div>
