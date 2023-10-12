@@ -8,7 +8,7 @@ const testimonialData: Testimonial[] = [
     name: "Musharof Chy",
     designation: "Founder @TailGrids",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Working with USG Exports has been a game-changer for our business. Their commitment to quality is unmatched",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
@@ -17,7 +17,7 @@ const testimonialData: Testimonial[] = [
     name: "Devid Weilium",
     designation: "Founder @UIdeck",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    "India's export market is vast, but USG Exports stands out. They are professional, reliable, and always exceed expectations.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
@@ -37,7 +37,7 @@ const Testimonials = () => {
     <section className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
+          title="What Our Clients Says"
           paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
           center
         />
