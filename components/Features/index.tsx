@@ -1,3 +1,4 @@
+import Brands from "../Brands";
 import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
@@ -11,8 +12,8 @@ const Features = () => {
       >
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="About Us"
+            paragraph="At USG Exports, we have been at the forefront of India's vibrant export industry for 2+ years. Our passion for quality, commitment to excellence, and unwavering dedication to customer satisfaction have made us a leading player in the export market."
             center
           />
 
@@ -22,6 +23,7 @@ const Features = () => {
             ))}
           </div>
         </div>
+        <Brands/>
       </section>
     </>
   );
