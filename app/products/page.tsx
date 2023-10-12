@@ -11,7 +11,7 @@ const Blog = () => {
       />
 
 
-
+      
       <section className="pt-[120px] md:px-30">
         <div className="mx-auto  w-1/2 mb-8">
           <h1 className="mb-4 mx-20 block text-xl font-bold text-black hover:text-primary dark:text-white sm:text-5xl text-center">
