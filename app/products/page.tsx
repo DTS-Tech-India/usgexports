@@ -1,5 +1,5 @@
 import SingleBlog from "@/components/Blog/SingleBlog";
-import {spiceData, pigmentsData} from "@/components/Blog/blogData";
+import { spiceData, pigmentsData } from "@/components/Blog/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 const Blog = () => {
@@ -13,9 +13,14 @@ const Blog = () => {
 
 
       <section className="pt-[120px] md:px-30">
-        <h1 className="mb-4 mx-20 block text-xl font-bold text-black hover:text-primary dark:text-white sm:text-5xl">
-          Spices
-        </h1>
+        <div className="mx-auto  w-1/2 mb-8">
+          <h1 className="mb-4 mx-20 block text-xl font-bold text-black hover:text-primary dark:text-white sm:text-5xl text-center">
+            Spices
+          </h1>
+          <p className="text-center">
+            Spices are a diverse and essential category of flavoring ingredients used in culinary traditions worldwide. India boasts a rich spice heritage, known as the "Land of Spices," with a history of trade and cultivation dating back thousands of years.
+          </p>
+        </div>
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
             {spiceData.map((blog) => (
@@ -30,9 +35,14 @@ const Blog = () => {
         </div>
       </section>
       <section className="pt-[40px] pb-[120px] md:px-30">
-        <h1 className="mb-4 mx-20 block text-xl font-bold text-black hover:text-primary dark:text-white sm:text-5xl">
-          Pigments
-        </h1>
+        <div className="mx-auto  w-1/2 mb-8">
+          <h1 className="mb-4 mx-20 block text-xl font-bold text-black hover:text-primary dark:text-white sm:text-5xl text-center">
+            Pigments
+          </h1>
+          <p className="text-center">
+            Pigments play a vital role in adding color to various products, and they come in three major categories: Natural Dye Pigments, sourced sustainably for textiles and art; Inorganic Pigments, valued for their durability in paints, coatings, and plastics; and Organic Pigments, known for their versatility and eco-friendliness across diverse industries.
+          </p>
+        </div>
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
             {pigmentsData.map((blog) => (

@@ -6,20 +6,20 @@ const spiceData: Blog[] = [
     title: "Turmeric Powder",
     paragraph:
       "Turmeric, known for its vibrant color and numerous health benefits, is a staple spice in Indian cuisine. Our turmeric powder is sourced from the finest farms and offers a rich flavor and natural goodness.",
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/blog/turmeric.jpg",
   },
   {
     id: 2,
     title: "Cumin Seeds", 
     paragraph: "Cumin seeds are a must-have in Indian cooking. Our cumin seeds are carefully selected for their aroma and flavor, enhancing the taste of your dishes.",
-    image: "/images/blog/blog-02.jpg",
+    image: "/images/blog/cumin.jpg",
   },
   {
     id: 3,
     title: "Red Chilli Powder",
     paragraph:
     "Add a spicy kick to your dishes with our premium red chilli powder. It's a favorite among spice enthusiasts for its heat and vibrant color.",
-    image: "/images/blog/blog-03.jpg",
+    image: "/images/blog/red-chilli.jpg",
   },
 ];
 
