@@ -5,7 +5,7 @@ const spiceData: Blog[] = [
     id: 1,
     title: "Turmeric Powder",
     paragraph:
-      "Turmeric, known for its vibrant color and numerous health benefits, is a staple spice in Indian cuisine. Our turmeric powder is sourced from the finest farms and offers a rich flavor and natural goodness.",
+      "Experience the vibrant essence of India with our premium Turmeric Powder. Known for its robust flavor and vivid color, it's a staple in countless cuisines.",
     image: "/images/blog/turmeric.jpg",
   },
   {
@@ -18,7 +18,7 @@ const spiceData: Blog[] = [
     id: 3,
     title: "Red Chilli Powder",
     paragraph:
-    "Add a spicy kick to your dishes with our premium red chilli powder. It's a favorite among spice enthusiasts for its heat and vibrant color.",
+    "Add a spicy kick to your dishes with our premium red chilli powder. It's a favorite among spice enthusiasts around the globe for its heat and vibrant color .",
     image: "/images/blog/red-chilli.jpg",
   },
 ];

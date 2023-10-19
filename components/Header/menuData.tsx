@@ -19,11 +19,5 @@ const menuData: Menu[] = [
     path: "/about",
     newTab: false,
   },
-  {
-    id: 4,
-    title: "Privacy",
-    path: "/privacy",
-    newTab: false,
-  },
 ];
 export default menuData;

@@ -6,7 +6,7 @@ const testimonialData: Testimonial[] = [
   {
     id: 1,
     name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    industry: "Founder @TailGrids",
     content:
       "Working with USG Exports has been a game-changer for our business. Their commitment to quality is unmatched",
     image: "/images/testimonials/auth-01.png",
@@ -15,16 +15,16 @@ const testimonialData: Testimonial[] = [
   {
     id: 2,
     name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    industry: "Founder @UIdeck",
     content:
-    "India's export market is vast, but USG Exports stands out. They are professional, reliable, and always exceed expectations.",
+      "India's export market is vast, but USG Exports stands out. They are professional, reliable, and always exceed expectations.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
     name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    industry: "Founder @Lineicons",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/testimonials/auth-03.png",
@@ -38,7 +38,8 @@ const Testimonials = () => {
       <div className="container">
         <SectionTitle
           title="What Our Clients Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph=
+          "See what clients say about USG Exports business. Testimonials reflect our commitment to quality global trade."
           center
         />
 

@@ -7,7 +7,7 @@ const Blog = () => {
     <>
       <Breadcrumb
         pageName="Our Products"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Indulge in the hues and flavors of India with our handpicked spice and pigment collection. From rich Turmeric Powder to bold Red Chilli Powder, and a spectrum of high-quality pigments, our products add both color and zest to your world."
       />
 
 

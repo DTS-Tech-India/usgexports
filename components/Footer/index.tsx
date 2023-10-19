@@ -9,7 +9,7 @@ const Footer = () => {
         data-wow-delay=".1s"
       >
         <div className="container">
-          <div className="-mx-4 flex flex-wrap">
+          <div className="-mx-4 flex flex-wrap justify-evenly">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
@@ -29,7 +29,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                We are a leading name in the world of international trade, with a legacy of excellence spanning over 2+ years.
+                  We are a leading name in the world of international trade, with a legacy of excellence spanning over 2+ years.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -100,29 +100,27 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/"
+                      href="/products"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      {" "}
-                      Blog{" "}
+                      Products
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="/about"
+                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      About
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/contact"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      {" "}
-                      Pricing{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      About{" "}
+                      contact us
                     </a>
                   </li>
                 </ul>
@@ -137,11 +135,10 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/"
+                      href="/privacy"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      {" "}
-                      TOS{" "}
+                     Privacy
                     </a>
                   </li>
                   <li>
@@ -165,52 +162,15 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
-                </h2>
-                <ul>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      Open Support Ticket{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      Terms of Use{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      About{" "}
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
         <div className="bg-primary/10 py-8">
           <div className="container flex justify-between">
-          <p className="text-center text-base text-body-color dark:text-white">
-          © USG Exports 2023 | All Rights Reserved
+            <p className="text-center text-base text-body-color dark:text-white">
+              © USG Exports 2023 | All Rights Reserved
             </p>
             <p className="text-center text-base text-body-color dark:text-white">
-            Developed with ❤️️ by <a href="https://dtstechindia.com" className="hover:underline">DTS Tech India</a> | Powered by <a href="https://socialyard.tech" className="  hover:transition-all  hover:duration-300  hover:ease-in-out hover:underline">Social Yard</a>
+              Developed with ❤️️ by <a href="https://dtstechindia.com" className="hover:underline">DTS Tech India</a> | Powered by <a href="https://socialyard.tech" className="  hover:transition-all  hover:duration-300  hover:ease-in-out hover:underline">Social Yard</a>
             </p>
           </div>
         </div>
