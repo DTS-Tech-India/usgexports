@@ -7,9 +7,9 @@ import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
-import { Inter } from "@next/font/google";
+import { Outfit } from "@next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const outfit = Outfit({ subsets: ["latin"] });
 
 export default function Home() {
   return (
