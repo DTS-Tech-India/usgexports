@@ -112,7 +112,7 @@ const Footer = () => {
                       href="/about"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      About
+                      About Us
                     </a>
                   </li>
                   <li>
@@ -120,7 +120,7 @@ const Footer = () => {
                       href="/contact"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      contact us
+                      contact Us
                     </a>
                   </li>
                 </ul>
