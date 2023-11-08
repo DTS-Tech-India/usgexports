@@ -121,7 +121,7 @@ const AboutPage = () => {
             className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-black">
             <div className="flex flex-wrap items-center">
               <div className="hidden shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
-                <img src="https://images.unsplash.com/photo-1554769944-3138b076c38a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fGV4cG9ydHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Trendy Pants and Shoes"
+                <img src="/images/blog/arial-port.avif" alt="Trendy Pants and Shoes"
                   className="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
               </div>
               <div className="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
