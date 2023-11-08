@@ -29,6 +29,8 @@ const Contact = () => {
                       </label>
                       <input
                         type="text"
+                        id="name"
+                        name="name"
                         placeholder="Enter your name"
                         className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                       />
@@ -37,13 +39,15 @@ const Contact = () => {
                   <div className="w-full px-4 md:w-1/3">
                     <div className="mb-8">
                       <label
-                        htmlFor="name"
+                        htmlFor="phone"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
                         Your Phone
                       </label>
                       <input
                         type="text"
+                        id="phone"
+                        name="phone"
                         placeholder="Enter your Phone"
                         className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                       />
@@ -59,6 +63,8 @@ const Contact = () => {
                       </label>
                       <input
                         type="email"
+                        id="email"
+                        name="email"
                         placeholder="Enter your email"
                         className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                       />
@@ -73,6 +79,7 @@ const Contact = () => {
                         Your Message
                       </label>
                       <textarea
+                      id="message"
                         name="message"
                         rows={5}
                         placeholder="Enter your Message"
