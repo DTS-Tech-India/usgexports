@@ -3,6 +3,12 @@ import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Image from "next/image";
 import SectionTitle from "@/components/Common/SectionTitle";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Welcome to USG Exports",
+  description: "At USG Exports, we take immense pride in connecting the world to the finest exports from India. With a legacy of excellence, we're your trusted partner in sourcing quality products that meet your exacting standards"
+  // other metadata
+};
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">

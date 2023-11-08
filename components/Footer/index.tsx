@@ -138,7 +138,7 @@ const Footer = () => {
                       href="/privacy"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                     Privacy
+                      Privacy
                     </a>
                   </li>
                   <li>
@@ -165,7 +165,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="bg-primary/10 py-8">
-          <div className="container flex justify-between">
+          <div className="container flex justify-between flex-col md:flex-row">
             <p className="text-center text-base text-body-color dark:text-white">
               © USG Exports 2023 | All Rights Reserved
             </p>
