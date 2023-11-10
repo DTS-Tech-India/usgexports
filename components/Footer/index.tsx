@@ -120,7 +120,7 @@ const Footer = () => {
                       href="/contact"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      contact Us
+                      Contact Us
                     </a>
                   </li>
                 </ul>
@@ -135,28 +135,26 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/privacy"
+                      href="/privacy-policy"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      Privacy
+                      Privacy Policy
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/terms-conditions"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      {" "}
-                      Privacy Policy{" "}
+                      Terms & Conditions
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/refund-policy"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      {" "}
-                      Refund Policy{" "}
+                      Refund Policy
                     </a>
                   </li>
                 </ul>

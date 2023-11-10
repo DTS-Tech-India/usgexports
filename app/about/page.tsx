@@ -18,7 +18,7 @@ const checkIcon = (
 
 const AboutPage = () => {
   const List = ({ text }) => (
-    <p className="mb-5 flex items-center text-lg font-medium text-body-color">
+    <p className="mb-5 flex items-center text-lg font-medium text-slate-500">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
         {checkIcon}
       </span>
@@ -39,7 +39,7 @@ const AboutPage = () => {
                 <SectionTitle
                   title="Who We Are"
                   paragraph="
-                  At USG Exports, we are a leading name in the world of international trade, with a legacy of excellence spanning over [number of years] years. Our unwavering commitment to quality, customer satisfaction, and the export of premium Indian products has established us as a trusted partner in the global market."
+                  At USG Exports, we are a leading name in the world of international trade, with a legacy of excellence spanning over 2+ years. Our unwavering commitment to quality, customer satisfaction, and the export of premium Indian products has established us as a trusted partner in the global market."
                   mb="44px"
                 />
 
@@ -89,15 +89,15 @@ const AboutPage = () => {
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-xl lg:text-xl xl:text-2xl">
                     Our mission is clear:
                   </h3>
-                  <p className="text-base font-medium leading-relaxed text-body-color sm:text-md sm:leading-relaxed">
-                    to be your gateway to premium Indian treasures, offering you access to the finest spices and pigments that India has to offer. We uphold the following core values
+                  <p className="text-base leading-relaxed text-slate-500 sm:text-md sm:leading-relaxed">
+                    To be your gateway to premium Indian treasures, offering you access to the finest spices and pigments that India has to offer. We uphold the following core values
                   </p>
                 </div>
                 <div className="mb-6">
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-xl lg:text-xl xl:text-2xl">
                     Quality:
                   </h3>
-                  <p className="text-base font-medium leading-relaxed text-body-color sm:text-md sm:leading-relaxed">
+                  <p className="text-base leading-relaxed text-slate-500 sm:text-md sm:leading-relaxed">
                     We believe that quality is non-negotiable. Our commitment to delivering the highest quality products is the cornerstone of our success.
                   </p>
                 </div>
@@ -105,7 +105,7 @@ const AboutPage = () => {
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-xl lg:text-xl xl:text-2xl">
                     Reliability:
                   </h3>
-                  <p className="text-base font-medium leading-relaxed text-body-color sm:text-md sm:leading-relaxed">
+                  <p className="text-base leading-relaxed text-slate-500 sm:text-md sm:leading-relaxed">
                     We take pride in our reliability and integrity. Our customers trust us to deliver exceptional products consistently.
                   </p>
                 </div>
@@ -113,7 +113,7 @@ const AboutPage = () => {
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-xl lg:text-xl xl:text-2xl">
                     Sustainability:
                   </h3>
-                  <p className="text-base font-medium leading-relaxed text-body-color sm:text-md sm:leading-relaxed">
+                  <p className="text-base leading-relaxed text-slate-500 sm:text-md sm:leading-relaxed">
                     We are dedicated to responsible sourcing and sustainable business practices, ensuring that we contribute positively to the environment and local communities.
                   </p>
                 </div>

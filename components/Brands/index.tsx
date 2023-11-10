@@ -44,7 +44,7 @@ const Brands = () => {
   return (
     <section className="pt-16">
       <div className="">
-        <div className="-mx-4 flex flex-wrap">
+        <div className="mx-0 flex flex-wrap">
           <div className="w-full">
             <div
               className="wow fadeInUp flex flex-wrap items-center justify-center rounded-md bg-dark dark:bg-primary dark:bg-opacity-5 "
