@@ -5,6 +5,11 @@ import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
+import localFont from "next/font/local";
+
+const outfit = localFont({
+  src:'fonts/Outfit-VariableFont_wght.ttf',
+})
 
 export default function RootLayout({
   children,
@@ -19,7 +24,7 @@ export default function RootLayout({
       */}
       <head />
 
-      <body className="dark:bg-black">
+      <body className={`dark:bg-black ${outfit.className}`}>
         <Providers>
           <Header />
           {children}

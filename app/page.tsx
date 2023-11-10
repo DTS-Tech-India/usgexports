@@ -8,6 +8,11 @@ import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
+import localFont from "next/font/local";
+
+const outfit = localFont({
+  src:'./fonts/Outfit-VariableFont_wght.ttf',
+})
 
 export const metadata: Metadata = {
   title: "Welcome to USG Exports",

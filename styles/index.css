@@ -5,10 +5,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Outfit', sans-serif;
-  src: url("../public/fonts/Outfit-VariableFont_wght.ttf");
-  font-weight: 400;
-  font-style: normal;
+  font-family:  'Outfit';
+  /* src: url(./fonts/Outfit-VariableFont_wght.ttf); */
 }
 
 @layer base {
