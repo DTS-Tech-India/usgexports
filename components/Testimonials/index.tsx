@@ -5,29 +5,26 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    industry: "Spices",
+    name: "Luca",
+    industry: " European Spice Trader",
     content:
-      "Working with USG Exports has been a game-changer for our business. Their commitment to quality is unmatched",
-    image: "/images/testimonials/auth-01.png",
+      "USG Exports spices have become a staple in my inventory. The consistency and quality of their products ensure that I can confidently supply my customers with the finest spices. The seamless international delivery makes them an invaluable partner in business.",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    industry: "Pigments",
+    name: "Fatima",
+    industry: "Gulf Region Business Owner",
     content:
-      "India's export market is vast, but USG Exports stands out. They are professional, reliable, and always exceed expectations.",
-    image: "/images/testimonials/auth-02.png",
+    "As a trader in the Gulf region, sourcing premium spices is crucial. The aromatic richness and authenticity of the spices resonate with the discerning tastes of my customers. The compliance to international standards make USG Exports my go-to spice supplier.",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    industry: "Spices",
+    name: "Henrik",
+    industry: "European Culinary Entrepreneur",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
+    "USG Exports' spices have elevated the culinary experience. The convenience of sourcing high-quality spices has streamlined our operations, and the positive feedback from patrons speaks volumes. They are an indispensable partner in bringing authentic global flavors to our tables.",
     star: 5,
   },
 ];

@@ -8,7 +8,7 @@ import "../styles/index.css";
 import localFont from "next/font/local";
 
 const outfit = localFont({
-  src:'fonts/Outfit-VariableFont_wght.ttf',
+  src: 'fonts/Outfit-VariableFont_wght.ttf',
 })
 
 export default function RootLayout({
@@ -26,14 +26,17 @@ export default function RootLayout({
 
       <body className={`dark:bg-black ${outfit.className}`}>
         <Providers>
-          <Header />
-          {children}
-          <Footer />
-          <ScrollToTop />
+          <HubspotProvider>
+            <Header />
+            {children}
+            <Footer />
+            <ScrollToTop />
+          </HubspotProvider>
         </Providers>
       </body>
     </html>
   );
 }
 
-import { Providers } from "./providers";
+import { Providers } from "./providers"; import { HubspotProvider } from "next-hubspot";
+

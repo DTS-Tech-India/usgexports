@@ -28,7 +28,7 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
-                <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
+                <p className="mb-9 text-base font-normal leading-relaxed text-slate-500 dark:text-white/90">
                   We are a leading name in the world of international trade, with a legacy of excellence spanning over 2+ years.
                 </p>
                 <div className="flex items-center">
@@ -95,13 +95,13 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                Company
                 </h2>
                 <ul>
                   <li>
                     <a
                       href="/products"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-slate-500 hover:text-primary dark:text-white/90"
                     >
                       Products
                     </a>
@@ -109,16 +109,16 @@ const Footer = () => {
 
                   <li>
                     <a
-                      href="/about"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      href="/about-us"
+                      className="mb-4 inline-block text-base font-medium text-slate-500 hover:text-primary dark:text-white/90"
                     >
                       About Us
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/contact"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      href="/contact-us"
+                      className="mb-4 inline-block text-base font-medium text-slate-500 hover:text-primary dark:text-white/90"
                     >
                       Contact Us
                     </a>
@@ -136,7 +136,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/privacy-policy"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-slate-500 hover:text-primary dark:text-white/90"
                     >
                       Privacy Policy
                     </a>
@@ -144,7 +144,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/terms-conditions"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-slate-500 hover:text-primary dark:text-white/90"
                     >
                       Terms & Conditions
                     </a>
@@ -152,7 +152,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/refund-policy"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                      className="mb-4 inline-block text-base font-medium text-slate-500 hover:text-primary dark:text-white/90"
                     >
                       Refund Policy
                     </a>
@@ -164,10 +164,10 @@ const Footer = () => {
         </div>
         <div className="bg-primary/10 py-8">
           <div className="container flex justify-between flex-col md:flex-row">
-            <p className="text-center text-base text-body-color dark:text-white">
+            <p className="text-center text-base text-slate-500 dark:text-white">
               © USG Exports 2023 | All Rights Reserved
             </p>
-            <p className="text-center text-base text-body-color dark:text-white">
+            <p className="text-center text-base text-slate-500 dark:text-white">
               Developed with ❤️️ by <a href="https://dtstechindia.com" className="hover:underline">DTS Tech India</a> | Powered by <a href="https://socialyard.tech" className="  hover:transition-all  hover:duration-300  hover:ease-in-out hover:underline">Social Yard</a>
             </p>
           </div>
