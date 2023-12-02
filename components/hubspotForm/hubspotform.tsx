@@ -1,5 +1,6 @@
 "use client"
 import { useEffect } from 'react';
+import styleButtonInIframe from  '../../styles/hubspotForm.js';
 
 export default function HubSpotForm() {
     useEffect(() => {
@@ -17,6 +18,10 @@ export default function HubSpotForm() {
             });
          }
       });
+      setTimeout(() => {
+      styleButtonInIframe();
+      }, 2000);
+
     }, []);
  
     return (

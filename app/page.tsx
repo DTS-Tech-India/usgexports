@@ -7,6 +7,7 @@ import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
+import HubSpotFormHome from "@/components/hubspotForm/homepageForm";
 import { Metadata } from "next";
 import localFont from "next/font/local";
 
@@ -29,7 +30,8 @@ export default function Home() {
       {/* <AboutSectionTwo />*/}
       <Testimonials />
       {/* <Pricing /> */}
-      <Contact />
+      {/* <Contact /> */}
+      <HubSpotFormHome />
     </>
   );
 }
