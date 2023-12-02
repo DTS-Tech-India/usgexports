@@ -6,6 +6,9 @@ export default function styleButtonInIframe() {
     // Select the button element inside the iframe document
     var button = iframeDocument.querySelector('.hs-button');
     var form = iframeDocument.querySelector('form');
+    var label = iframeDocument.querySelector('label');
+
+    console.log(label);
     // console.log(button);    
     // console.log("form", form);
     if (button) {
@@ -13,6 +16,9 @@ export default function styleButtonInIframe() {
         form.style.fontFamily="Inter";
         button.style.backgroundColor = 'rgb(37, 83, 208)';
         button.style.border = 'white';
+    }
+    if(label) {
+        label.className = "__className_f6ccad";
     }
     // console.log(iframe);
 }

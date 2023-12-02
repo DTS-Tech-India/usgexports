@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FaLocationArrow, FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -8,9 +10,9 @@ const Footer = () => {
         className="wow fadeInUp relative z-10 bg-primary bg-opacity-5 pt-16 md:pt-20 lg:pt-24"
         data-wow-delay=".1s"
       >
-        <div className="container">
+        <div className="mx-10 md:ml-28">
           <div className="flex flex-wrap justify-evenly">
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
+            <div className="w-full px-4 md:w-1/2 lg:w-3/12 xl:w-3/12">
               <div className="max-w-[360px]">
                 <Link href="/" className="mb-2 inline-block">
                   <Image
@@ -34,14 +36,20 @@ const Footer = () => {
                   with a legacy of excellence spanning over 2+ years.
                 </p>
                 <div className="mb-6 flex">
-                <Image src="IAF.svg" alt="logo" width={80} height={30} className="mr-2" />
+                  <Image
+                    src="IAF.svg"
+                    alt="logo"
+                    width={80}
+                    height={30}
+                    className="mr-2"
+                  />
                   <Image src="ISO.svg" alt="logo" width={55} height={30} />
                 </div>
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-3/12">
+              <div className="mb-12 lg:mb-16 md:pl-[30%]">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Company
                 </h2>
@@ -75,8 +83,8 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-3/12">
+              <div className="mb-12 lg:mb-16 md:pl-[20%]">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Terms
                 </h2>
@@ -104,6 +112,59 @@ const Footer = () => {
                     >
                       Refund Policy
                     </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-3/12">
+              <div className="mb-12 lg:mb-16">
+                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                  Get in Touch
+                </h2>
+                <ul>
+                  <li>
+                    <a
+                      href="#"
+                      className="mb-4 inline-block text-base font-medium text-slate-500 dark:text-white/90"
+                    >
+                      <span className="flex items-center">
+                        <FaLocationArrow />
+                        <span className="ml-4">
+                          23, Joshi Road, Karol Bagh <br></br> New Delhi -
+                          110005
+                        </span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="tel:+919315122278"
+                      className="mb-4 inline-block text-base font-medium text-slate-500 hover:text-primary dark:text-white/90"
+                    >
+                      <span className="flex items-center">
+                        <FaPhoneAlt />
+                        <span className="ml-4">+91 9315122278</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="mailto:info@usgexports.com"
+                      className="mb-4 inline-block text-base font-medium text-slate-500 hover:text-primary dark:text-white/90"
+                    >
+                      <span className="flex items-center">
+                        <MdEmail />
+                        <span className="ml-4">info@usgexports.com</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li className=" inline-block text-xs font-medium text-slate-500 dark:text-white/90">
+                    GSTIN: 07EPBM2863F1ZW
+                  </li>
+                  <br></br>
+                  <li className="mb-4 inline-block text-xs font-medium text-slate-500 dark:text-white/90">
+                    UDYAM NO.: UDYAM-DL-01-0022876
                   </li>
                 </ul>
               </div>
