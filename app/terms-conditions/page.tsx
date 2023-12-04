@@ -1,6 +1,12 @@
 import React from "react";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Terms & Conditions | USG Exports",
+  description:
+    "At USG Exports, we take immense pride in connecting the world to the finest exports from India. With a legacy of excellence, we're your trusted partner in sourcing quality products that meet your exacting standards",
+  // other metadata
+};
 const TermsConditions = () => {
   return (
     <section>
