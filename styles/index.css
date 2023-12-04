@@ -48,3 +48,29 @@ body {
 iframe {
   padding: 2rem !important;
 }
+
+ul.list-disc.px-10 li{
+  margin: 1rem 0;
+}
+
+/* Process */
+
+.process-card {
+  max-width: 550px;
+}
+
+.process-num {
+  font-size: 11rem;
+  font-weight:500;
+  padding: 0;
+  margin: 0;
+  background: -webkit-radial-gradient(80% 30%, #115ac0, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right:-5px;
+
+}
+
+.process-text {
+  font-size: 2rem;
+}

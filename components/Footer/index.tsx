@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
 
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-3/12">
-              <div className="mb-12 lg:mb-16 md:pl-[30%]">
+              <div className="mb-12 md:pl-[30%] lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Company
                 </h2>
@@ -62,7 +62,14 @@ const Footer = () => {
                       Products
                     </a>
                   </li>
-
+                  <li>
+                    <a
+                      href="/process"
+                      className="mb-4 inline-block text-base font-medium text-slate-500 hover:text-primary dark:text-white/90"
+                    >
+                      Process
+                    </a>
+                  </li>
                   <li>
                     <a
                       href="/about-us"
@@ -71,6 +78,16 @@ const Footer = () => {
                       About Us
                     </a>
                   </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-3/12">
+              <div className="mb-12 md:pl-[20%] lg:mb-16">
+                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                  Terms
+                </h2>
+                <ul>
                   <li>
                     <a
                       href="/contact-us"
@@ -79,16 +96,6 @@ const Footer = () => {
                       Contact Us
                     </a>
                   </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-3/12">
-              <div className="mb-12 lg:mb-16 md:pl-[20%]">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
-                </h2>
-                <ul>
                   <li>
                     <a
                       href="/privacy-policy"
@@ -103,14 +110,6 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-slate-500 hover:text-primary dark:text-white/90"
                     >
                       Terms & Conditions
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/refund-policy"
-                      className="mb-4 inline-block text-base font-medium text-slate-500 hover:text-primary dark:text-white/90"
-                    >
-                      Refund Policy
                     </a>
                   </li>
                 </ul>
