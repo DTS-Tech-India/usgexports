@@ -12,7 +12,7 @@ const Process = () => {
         the aromatic spices that grace kitchens across the globe. Discover how
         we ensure quality, sustainability, and excellence at every step."
       />
-      <p className="container px-52">
+      <p className="container md:px-20 lg:px-52">
         {" "}
         Welcome to USG Exports, where we take pride in delivering the authentic
         flavors of India to the world. Our process is a seamless journey that

@@ -25,8 +25,8 @@ export default function HubSpotFormHome() {
     }, []);
  
     return (
-       <div className="hubspotForm p-8 container">
-        <h1 className='text-3xl font-semibold'>Get in Touch
+       <div className="hubspotForm p-8 container bg-white">
+        <h1 className='text-3xl font-semibold dark:text-primary'>Get in Touch
             <div id="hubspotFormHome" > </div>
         </h1>
        </div>

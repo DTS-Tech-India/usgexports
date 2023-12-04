@@ -63,12 +63,10 @@ ul.list-disc.px-10 li{
   font-size: 11rem;
   font-weight:500;
   padding: 0;
-  margin: 0;
+  margin: 0 10px;
   background: -webkit-radial-gradient(80% 30%, #115ac0, #fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-right:-5px;
-
 }
 
 .process-text {

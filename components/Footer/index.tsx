@@ -41,9 +41,17 @@ const Footer = () => {
                     alt="logo"
                     width={80}
                     height={30}
-                    className="mr-2"
+                    className="mr-2 dark:hidden"
                   />
-                  <Image src="ISO.svg" alt="logo" width={55} height={30} />
+                  <Image src="ISO.svg" alt="logo" width={55} height={30} className="dark:hidden"/>
+                  <Image
+                    src="/IAF-light.svg"
+                    alt="logo"
+                    width={80}
+                    height={30}
+                    className="mr-2 dark:block hidden"
+                  />
+                  <Image src="/ISO-light.svg" alt="logo" width={55} height={30} className="dark:block hidden"/>
                 </div>
               </div>
             </div>
@@ -67,7 +75,7 @@ const Footer = () => {
                       href="/process"
                       className="mb-4 inline-block text-base font-medium text-slate-500 hover:text-primary dark:text-white/90"
                     >
-                      Process
+                      Our Process
                     </a>
                   </li>
                   <li>
@@ -159,7 +167,7 @@ const Footer = () => {
                     </a>
                   </li>
                   <li className=" inline-block text-xs font-medium text-slate-500 dark:text-white/90">
-                    GSTIN: 07EPBM2863F1ZW
+                    GSTIN: 07EPBPM2863F1ZW
                   </li>
                   <br></br>
                   <li className="mb-4 inline-block text-xs font-medium text-slate-500 dark:text-white/90">
