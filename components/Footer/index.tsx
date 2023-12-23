@@ -35,7 +35,7 @@ const Footer = () => {
                   We are a leading name in the world of international trade,
                   with a legacy of excellence spanning over 2+ years.
                 </p>
-                <div className="mb-6 flex">
+                <div className="mb-6 flex items-center">
                   <Image
                     src="IAF.svg"
                     alt="logo"
@@ -51,7 +51,14 @@ const Footer = () => {
                     height={30}
                     className="mr-2 dark:block hidden"
                   />
-                  <Image src="/ISO-light.svg" alt="logo" width={55} height={30} className="dark:block hidden"/>
+                  <Image src="/ISO-light.svg" alt="logo" width={55} height={20} className="dark:block hidden"/>
+                  <span className="flex flex-col justify-center items-center">
+                  <Image src="/fssai-logo.png" alt="logo" width={100} height={10} className="ml-2" style={{height: "40px"}}/>
+                  <p className="text-[10px] font-normal leading-relaxed text-slate-900 dark:text-white/90">
+                  Lic No.         13323999001169
+                  </p>
+                  </span>
+                  
                 </div>
               </div>
             </div>
@@ -166,12 +173,15 @@ const Footer = () => {
                       </span>
                     </a>
                   </li>
-                  <li className=" inline-block text-xs font-medium text-slate-500 dark:text-white/90">
+                  <li className=" inline-block text-sm font-medium text-slate-500 dark:text-white/90">
                     GSTIN: 07EPBPM2863F1ZW
+                  </li><br></br>
+                  <li className=" inline-block text-sm font-medium text-slate-500 dark:text-white/90">
+                    FSSAI NO. : 13323999001169
                   </li>
                   <br></br>
-                  <li className="mb-4 inline-block text-xs font-medium text-slate-500 dark:text-white/90">
-                    UDYAM NO.: UDYAM-DL-01-0022876
+                  <li className="mb-4 inline-block text-sm font-medium text-slate-500 dark:text-white/90">
+                    UDYAM NO. : UDYAM-DL-01-0022876
                   </li>
                 </ul>
               </div>
